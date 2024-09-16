@@ -1,0 +1,34 @@
+#madiv {
+    width: 100%;
+    max-width: 400px;
+    /* Vous pouvez ajuster cette valeur selon vos besoins */
+    margin: 0 auto;
+    /* Centre horizontalement */
+    text-align: center;
+    /* Centre les éléments enfants à l'intérieur */
+}
+
+.input-container {
+    position: relative;
+    width: 100%;
+}
+
+.input-container i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #aaa;
+}
+
+.input-container input {
+    padding-left: 35px;
+    /* Espace pour l'icône */
+    width: 100%;
+    /* L'input prend toute la largeur du conteneur */
+}
+.container{
+    width: 350px;
+    display: none;
+}
+
